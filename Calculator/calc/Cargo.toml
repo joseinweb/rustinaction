@@ -1,0 +1,11 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adder = {path = "../adder"}
+divide = {path = "../divide"}
+differ = {path = "../differ"}
+product = {path = "../product"}
+luckynum = {path = "../luckynum"}
