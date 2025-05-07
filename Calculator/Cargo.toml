@@ -1,3 +1,7 @@
 [workspace]
 resolver = "2"
-members = ["adder", "calc", "differ", "divide", "luckynum", "product"]
+members = ["core/adder", "calc", "core/differ", "extras/divide", "luckynum", "extras/product"]
+
+[workspace.dependencies]
+addition = {path="core/adder"}
+substraction = {path = "core/differ"}

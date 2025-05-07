@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-adder = {path = "../adder"}
-divide = {path = "../divide"}
-differ = {path = "../differ"}
-product = {path = "../product"}
+addition = {workspace = true}
+substraction = {workspace = true}
+divide = { path = "../extras/divide"}
+product = {path = "../extras/product"}
 luckynum = {path = "../luckynum"}
